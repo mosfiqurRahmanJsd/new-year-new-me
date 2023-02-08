@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.primary-btn {
+    color: #005FAC;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+/* header styles */
+header {
+    min-height: 806px;
+    background-color: #005FAC;
+    background-image: url('./images/banner/banner3.png');
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.banner-container {
+    width: 30%;
+    padding: 200px 200px;
+    text-align: right;
+    margin-left: auto;
+}
+
+.banner-container h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-container p {
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+
+
+
+
+/* failures styles */
+.failures {
+    display: flex;
+    gap: 85px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.failures-info {
+    padding-right: 250px;
+}
+
+.failures-title {
+    margin-bottom: 40px;
+    color: #151414;
+    font-weight: 700;
+}
+
+.failures-description {
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.failures-check-description {
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.failures-check-description i {
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+/* Plan styles */
+.plan-section {
+    margin-bottom: 150px;
+}
+
+.plan-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan {
+    display: flex;
+    gap: 85px;
+    justify-content: space-around;
+
+}
+
+.plan-box {
+    text-align: center;
+}
+
+.plan-box img {
+    margin-bottom: 25px;
+}
+
+.plan-box-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-box-sub-title {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+/* mindset styles */
+.mindset {
+    min-height: 300px;
+    background-image: url('./images/watch.png'), url('./images/gradient1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    margin-bottom: 150px;
+    background-blend-mode: color-burn;
+}
+
+.positive-mindset {
+    width: 40%;
+    padding: 10%;
+}
+
+.mindset-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+
+/* Daily routine styles */
+
+.daily-routine {
+    margin-bottom: 150px;
+}
+
+.routine {
+    display: flex;
+    gap: 30px;
+}
+
+.routine-box {
+    background-color: #005FAC;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px gray;
+}
+
+.daily-routine-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.daily-routine-sub-title {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.routine-box-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.routine-box-description {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer || future styles */
+footer {
+    min-height: 550px;
+    background-color: #151414;
+}
+
+.future {
+    display: flex;
+    gap: 300px;
+    padding: 125px 20px;
+}
+
+.future-box {
+    width: 50%;
+    padding: 5px 50px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.social-icon {
+    margin-top: 32px;
+}
+
+.future-box input {
+    display: block;
+    width: 325px;
+    height: 65px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+.future-box input::placeholder {
+    color: #F3F3F3;
+    font-size: 18px;
+}
+
+.future-box h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.future-btn {
+    background-color: #005FAC;
+    color: white;
+
+}
